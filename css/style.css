@@ -98,3 +98,14 @@ nav ul li a{
     height:45px;
     border-radius:50%;
 }
+.department{
+    display:flex;
+    gap:20px;
+    flex-wrap:wrap;
+}
+
+.department label{
+    display:flex;
+    align-items:center;
+    gap:6px;
+}
