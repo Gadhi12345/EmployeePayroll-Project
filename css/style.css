@@ -109,3 +109,36 @@ nav ul li a{
     align-items:center;
     gap:6px;
 }
+
+textarea{
+    flex:1;
+    padding:12px;
+    font-size:16px;
+    border:1px solid #ccc;
+    border-radius:5px;
+    resize:none;
+}
+
+.form-buttons{
+    display:flex;
+    justify-content:space-between;
+    margin-top:30px;
+}
+
+.reset-btn,
+.submit-btn{
+    padding:12px 30px;
+    border:none;
+    border-radius:5px;
+    font-size:16px;
+    cursor:pointer;
+}
+
+.reset-btn{
+    background:#d9d9d9;
+}
+
+.submit-btn{
+    background:#82A70C;
+    color:white;
+}
